@@ -1,0 +1,88 @@
+{
+    "state-collectors":
+    [
+        {
+            "component": "MTMR",
+            "tables":
+            [
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianPositionLocal"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianPositionLocalDesired"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianVelocityGetParam"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["JointsKinematics"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["JointsDesiredKinematics"]
+                }
+            ]
+        }
+        ,
+        {
+            "component": "PSM1",
+            "tables":
+            [
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianPositionLocal"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianPositionLocalDesired"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianVelocityGetParam"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["JointsKinematics"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["JointsDesiredKinematics"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["vf_wrench_anotherspatial"]
+                }
+                ,
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["vf_pointing_dir_moment"]
+                }
+            ]
+        }
+    ]
+}

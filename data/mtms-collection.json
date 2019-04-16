@@ -1,0 +1,28 @@
+{
+    "state-collectors":
+    [
+        {
+            "component": "MTMR",
+            "tables":
+            [
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianVelocityGetParam"]
+                }
+            ]
+        }
+        ,
+        {
+            "component": "MTML",
+            "tables":
+            [
+                {
+                    "sampling": 1,
+                    "table": "StateTable",
+                    "signals": ["CartesianVelocityGetParam"]
+                }
+            ]
+        }
+    ]
+}
